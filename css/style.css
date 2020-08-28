@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: "Roboto";
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 24px;
+}
+
+.margintop-sm{margin-top: 25px;}
+.margintop-md{margin-top: 40px;}
+.margintop-lg{margin-top: 60px;}
+
+.centrado{
+    max-width: 960px;
+    margin: 0 auto 40px auto;
+    text-align:center;
+}
+
+.navbar{
+    background-color: #e1f4f3;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 16px ;
+}
+
+.nav-link:hover {
+    color:#333333;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+/*Imagen de fondo*/
+
+#foto{
+    background-image: url("../Img/Programador-computador-960x540.jpg");
+    background-size: cover;
+    padding-top: 80px;
+    min-height: 540px;
+    color: black;
+}
+
+.btn{
+    font-size:18px;
+    font-weight: bold;
+    padding:15px 25px;
+    min-width: 160px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-light{
+    color: black;
+    background-color:white;
+    border: 2px solid black;
+}
