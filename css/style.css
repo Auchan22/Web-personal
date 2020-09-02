@@ -74,12 +74,27 @@ p{
 
 /*Imagen de fondo*/
 
-#foto{
+.imagen{
     background-image: url("../Img/Programador-computador-960x540.jpg");
     background-size: cover;
-    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
     min-height: 540px;
-    color: black;
+    filter: blur(4px);
+}
+
+.elementos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding-bottom: 150px ;  
+}
+
+.elementos h3, .elementos p{
+    font-weight: bolder;
 }
 
 .btn{
@@ -91,18 +106,16 @@ p{
     display: inline-block;
 }
 
-.btn:hover{background-color: white; transition: all 0.3s ease;}
+.btn:hover{background-color: #d6e0f0; transition: all 0.3s ease;}
 
 .btn-light{
     color: black;
     background-color:white;
-    border: 2px solid black;
 }
 
 /*Mis conocimientos*/
 
 .card{
-    border: 2px solid black;
     background-color: #e3dfc8;
     border-radius:8px ;
     min-height: 220px;
@@ -169,7 +182,7 @@ p{
     width: 100%;
     height: 100%;
     top:0;
-    background: hsla(273,91%,27%, 0.7);
+    background: rgb(20,83,116, 0.5);
     transition: transform .5s;
     display:flex;
     align-items: center;
@@ -189,6 +202,16 @@ p{
 
     #parrafo{
         color: white;
+    }
+
+    .elementos{
+        padding-top: 110px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        width: 45%;
     }
 
     .card{
@@ -228,7 +251,7 @@ p{
         width: 100%;
         height: 100%;
         top:0;
-        background: rgba(75, 6, 132, 0.7);
+        background: rgb(20,83,116, 0.5);
         transition: transform .5s;
         display:flex;
         align-items: center;
@@ -245,4 +268,4 @@ p{
 @media (max-width: 991.98px) { ... }
 
 
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) { ... }0
