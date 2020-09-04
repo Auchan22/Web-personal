@@ -251,7 +251,7 @@ hr{
     margin: 15px 10px 0 0;
 }
 
-#redes li:hover{
+#redes li a:hover{
     color: #706c61;
 }
 /*Acerca de mí fin*/
