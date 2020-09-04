@@ -5,6 +5,10 @@ body{
     font-family: "Roboto";
 }
 
+a{
+    text-decoration: none;
+}
+
 i{
     font-size: 18px;
 }
@@ -30,9 +34,26 @@ p{
     font-size: 24px;
 }
 
+hr{
+    background-color: white;
+    width: 100%;
+}
+
+.paddingtop-sm{padding-top:25px ;}
+.paddingtop-md{padding-top:40px ;}
+.paddingtop-lg{padding-top:60px ;}
+
+.paddingbtm-sm{padding-bottom:25px ;}
+.paddingbtm-md{padding-bottom:40px ;}
+.paddingbtm-lg{padding-bottom:60px ;}
+
 .margintop-sm{margin-top: 25px;}
 .margintop-md{margin-top: 40px;}
 .margintop-lg{margin-top: 60px;}
+
+.marginbtm-sm{margin-bottom: 25px;}
+.marginbtm-md{margin-bottom: 40px;}
+.marginbtm-lg{margin-bottom: 60px;}
 
 .centrado{
     max-width: 960px;
@@ -46,7 +67,7 @@ p{
     border-radius: 2px;
 }
 
-/*Navbar*/
+/*Navbar inicio*/
 
 .navbar{
     background-color: white;
@@ -71,8 +92,9 @@ p{
 .navbar-toggler:focus{
     outline: none;
 }
+/*Navbar fin*/
 
-/*Imagen de fondo*/
+/*Imagen de fondo inicio*/
 
 .imagen{
     background-image: url("../Img/Programador-computador-960x540.jpg");
@@ -112,8 +134,9 @@ p{
     color: black;
     background-color:white;
 }
+/*Imagen de fondo fin*/
 
-/*Mis conocimientos*/
+/*Mis conocimientos inicio*/
 
 .card{
     background-color: #e3dfc8;
@@ -124,10 +147,12 @@ p{
 
 .card-tittle{
     padding-top:20px ;
+    color: black;
 }
 
 .card-text{
     font-size: 18px;
+    color:black;
 }
 
 .card:hover{
@@ -137,6 +162,15 @@ p{
     box-shadow: 10px 13px 33px -7px rgba(0,0,0,0.71);
     transform: scale(1.1);
 }
+
+.encabezados{
+    color:black;
+}
+
+.encabezados:hover{
+    color: #706c61;
+}
+/*Mis conocimientos fin*/
 
 /*Portfolio inicio*/
 
@@ -194,7 +228,69 @@ p{
     transform:scale(0);
 }
 
+/*Portfolio fin*/
 
+/*Acerda de mí inicio*/
+#About_me{
+    background-color: white;
+}
+
+#redes{
+    list-style: none;
+}
+
+#redes li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px ;
+    margin-left: 10px;
+}
+
+#redes li a i{
+    font-size: 24px;
+    margin: 15px 10px 0 0;
+}
+
+#redes li:hover{
+    color: #706c61;
+}
+/*Acerca de mí fin*/
+
+/*Footer inicio*/
+    .tfooter, .ttext{
+        color: white;
+    }
+
+    .tfooter{
+        font-size: 20px;
+    }
+
+    .ttext{
+        font-size: 14px;
+    }
+
+    .row .col-md-4 ul{
+        padding-left:0px ;
+    }
+
+    .row .col-md-4 ul li {
+        color: white;
+        list-style: none;
+    }
+
+    .row .col-md-4 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .row .col-md-4 ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .copyright{color: white;}
+/*Footer fin*/
+
+/*Media queries*/
 @media (max-width: 575.98px) { 
     h3{
         color: white;
@@ -259,6 +355,23 @@ p{
         flex-direction: column;
     }
 
+    #perfil{
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    #About-me p{
+        text-align: center;
+        margin: 0px auto;
+        max-width: 575.98px;
+    }
+
+    #redes li {
+        margin-left:25px;
+    }
+
+
+
 }
 
 
@@ -268,4 +381,4 @@ p{
 @media (max-width: 991.98px) { ... }
 
 
-@media (max-width: 1199.98px) { ... }0
+@media (max-width: 1199.98px) { ... }
