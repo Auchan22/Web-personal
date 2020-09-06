@@ -92,6 +92,12 @@ hr{
 .navbar-toggler:focus{
     outline: none;
 }
+
+.navbar-brand{
+    background-color: #393b44;
+    color: white;
+    padding: 15px 10px;
+}
 /*Navbar fin*/
 
 /*Imagen de fondo inicio*/
@@ -103,6 +109,7 @@ hr{
     background-position: center center;
     min-height: 540px;
     filter: blur(4px);
+    opacity: 0.5;
 }
 
 .elementos{
@@ -117,6 +124,10 @@ hr{
 
 .elementos h3, .elementos p{
     font-weight: bolder;
+}
+
+.elementos h3{
+    font-size: 48px;
 }
 
 .btn{
@@ -142,7 +153,7 @@ hr{
     background-color: #e3dfc8;
     border-radius:8px ;
     min-height: 220px;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .card-tittle{
@@ -237,6 +248,7 @@ hr{
 
 #redes{
     list-style: none;
+    padding-left: 0px;
 }
 
 #redes li a{
@@ -293,11 +305,16 @@ hr{
 /*Media queries*/
 @media (max-width: 575.98px) { 
     h3{
-        color: white;
+        color: black;
+    }
+
+    .elementos h3{
+        font-size: 38px;
+        text-align: center;
     }
 
     #parrafo{
-        color: white;
+        color: black;
     }
 
     .elementos{
@@ -360,14 +377,27 @@ hr{
         margin-bottom: 20px;
     }
 
-    #About-me p{
+    .info p{
         text-align: center;
         margin: 0px auto;
         max-width: 575.98px;
     }
 
-    #redes li {
-        margin-left:25px;
+    .informacion img{
+        padding-right: 5%;
+    }
+
+    #redes{
+        padding-left: 0px;
+        margin-left:25%;
+    }
+
+    .redes p{
+        text-align: center;
+    }
+
+    .row-footer div h4, .row-footer div p, .row-footer div ul{
+        text-align:center;
     }
 
 
