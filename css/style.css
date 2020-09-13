@@ -150,10 +150,10 @@ hr{
 /*Mis conocimientos inicio*/
 
 .card{
-    background-color: #e3dfc8;
+    background-color: #056674;
     border-radius:8px ;
     min-height: 220px;
-    transition: 0.4s;
+    transition: all 0.4s ease;
 }
 
 .card-tittle{
@@ -167,7 +167,8 @@ hr{
 }
 
 .card:hover{
-    background-color:#f7f2e7 ;
+    background-color:#66bfbf ;
+    color:white;
     -webkit-box-shadow: 10px 13px 33px -7px rgba(0,0,0,0.71);
     -moz-box-shadow: 10px 13px 33px -7px rgba(0,0,0,0.71);
     box-shadow: 10px 13px 33px -7px rgba(0,0,0,0.71);
@@ -193,6 +194,11 @@ hr{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.container-proyectos p{
+    text-align: center;
 }
 
 .img-proy{
@@ -233,10 +239,11 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transform:scale(0);
 }
 
 .img-proy:hover .hover-proy{
-    transform:scale(0);
+    transform:scale(1);
 }
 
 /*Portfolio fin*/
@@ -245,6 +252,7 @@ hr{
 #About_me{
     background-color: white;
 }
+
 
 #redes{
     list-style: none;
@@ -301,6 +309,9 @@ hr{
 
     .copyright{color: white;}
 /*Footer fin*/
+
+/**/
+
 
 /*Media queries*/
 @media (max-width: 575.98px) { 
