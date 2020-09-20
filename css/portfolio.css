@@ -2,3 +2,8 @@
 .row{
     margin: auto 0px;
 }
+
+/*PPT*/
+#informacion .centrado img{
+    box-shadow: 10px 15px 5px black;
+}
